@@ -1,0 +1,16 @@
+# Lokale Python-Umgebung
+.venv/
+venv/
+
+# Python- und Notebook-Zwischendateien
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datensätze und gespeicherte Modelle
+/data/
+/models/
+
+# Zugangsdaten und lokale Konfiguration
+.env
+.env.*
