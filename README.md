@@ -13,6 +13,12 @@ Download `train.csv` and `store.csv` from the [Rossmann Store Sales competition 
 | `train.csv` | `data/raw/train.csv` | Daily store sales, opening status, promotions, and holidays from January 2013 through July 2015 |
 | `store.csv` | `data/raw/store.csv` | Store metadata, including store type, assortment, and competitor information |
 
+**Data source.** FlorianKnauer and Will Cukierski (2015).
+[Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales). Kaggle.
+
+The CSV files used in this project were downloaded from
+[Pratyusha Kar’s dataset upload on Kaggle](https://www.kaggle.com/datasets/pratyushakar/rossmann-store-sales/data).
+
 The notebook joins both files on `Store` in a local SQLite database. It uses
 the historical sales data for training and chronological validation.
 
